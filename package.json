@@ -1,0 +1,27 @@
+{
+  "name": "slack-gpt-thread-bot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.12.2",
+    "dotenv": "^16.3.1",
+    "mongodb": "^6.15.0",
+    "openai": "^4.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyokinokonoko/slack-gpt-thread-bot.git"
+  },
+  "author": "Kenny Ha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nyokinokonoko/slack-gpt-thread-bot/issues"
+  },
+  "homepage": "https://github.com/Nyokinokonoko/slack-gpt-thread-bot#readme",
+  "description": ""
+}
